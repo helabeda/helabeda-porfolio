@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  img {
+    @apply w-full
+  }
+  .section {
+    @apply container mx-auto py-24 px-6 min-h-screen
+  }
+  .animate-slide:hover {
+    animation-play-state: paused;
+  }
+  .h2 {
+    @apply text-[36px] mb-6 tracking-[10%];
+  }
+  .btn-sm {
+    @apply h-[48px] px-6 text-sm;
+  }
+}

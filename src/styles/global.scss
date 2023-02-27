@@ -1,0 +1,57 @@
+@import './constants.scss';
+
+.innerWidth {
+  @media (min-width: $xxl) {
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  width: 100%;
+}
+
+.paddings {
+  @media (min-width: $sm) {
+    padding: 4rem;
+  }
+
+
+  @media (min-width: $xl),
+  (min-width: $md) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.yPaddings {
+  @media (min-width: $sm) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: $xl) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.primaryText {
+  @media (max-width: $sm) {
+    font-size: 1.5rem;
+  }
+  font-size: 2rem;
+  font-weight: bold;
+}
