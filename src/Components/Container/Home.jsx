@@ -1,10 +1,14 @@
-import Reac from 'react'
+import Reac, { useState } from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import hela from "../../assets/Hela_abeda.png"
 import { logos } from '../../Data'
 import { motion } from "framer-motion";
 import CV from '../../assets/FullStackJs_HelaAbeda.pdf'
+import Dropdown from './Dropdown';
+
+
 const Home = () => {
+ 
   const [text] = useTypewriter({
     words:['Hela Abeda', 'A Full-Stack JS Dev', 'A Front-End Dev', ' A Back-End Dev', 'A MERN Stack Dev'],
     loop: {},
@@ -56,12 +60,13 @@ const Home = () => {
                 Hire me
               </button>
               </a>
-              <a href={CV} download="Hela Abeda.pdf" >
-              <button className='px-6 py-3 font-bold border border-solid
-              border-gray rounded-lg text-sm'>
-                Get Resume
-              </button>
-              </a>
+
+                <div className='inline-flex'>
+                  <Dropdown/>
+                </div>
+              
+             
+
             </div>
           </div>
           <div className='md:w-[60%]'>

@@ -22,6 +22,8 @@ import git from "./assets/git.png"
 import canva from "./assets/canva.png"
 import figma from "./assets/figma.png"
 import { FcMultipleDevices, FcCommandLine, FcGallery} from "react-icons/fc";
+import fr_cv from "./assets/FullStackJs_HelaAbeda.pdf"
+import en_cv from "./assets/FullStackJS_developer_Hela_Abeda.pdf"
 
 export const navLinks = [
   {
@@ -222,7 +224,18 @@ export const comments = [
     img: img6,
   },
 ];
-
+export const Resume = [
+  {
+    name : "EN Resume",
+    href: en_cv,
+    download: "Hela Abeda EN_Resume.pdf"
+  },
+  {
+    name : "FR Resume",
+    href: fr_cv,
+    download: "Hela Abeda FR_Resume.pdf"
+  }
+]
 export const sliderSettings = {
   dots: true,
   infinite: true,
