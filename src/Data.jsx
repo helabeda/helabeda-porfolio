@@ -148,7 +148,7 @@ export const skills = [
 export const workExp = [
   { 
     place: "Satoripop",
-    tenure: "Apr 2023 - Sep 2023",
+    tenure: "Since Apr 2023",
     role: "Front-End Developer",
     detail:
       "I contributed to the development of notable programming projects, including the Carrefour.tn website and the Veamly website, leveraging my skills and expertise in software development.",
