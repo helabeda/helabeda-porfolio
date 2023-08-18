@@ -1,5 +1,5 @@
 import React from 'react'
-import work1 from "../../assets/work 1.png"
+import work4 from "../../assets/work4.png"
 import work2 from "../../assets/work 2.png"
 import work3 from "../../assets/work3.png"
 
@@ -94,12 +94,12 @@ const Portfolio = () => {
                 <div className='group-hover:bg-black/70 w-full h-full
                   absolute z-10 transition-all duration-300'></div>
                 {/*image*/}
-                <img className='group-hover:scale-125 transition-all duration-500' src={work1} alt=''/>
+                <img className='group-hover:scale-125 transition-all duration-500' src={work4} alt=''/>
                 {/*pretitle*/}
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24
                   transition-all duration-500 z-50'>
-                  <span className='text-white'>My Porfolio</span><br/>
-                  <a href='https://my-portfolio-6m3sk1vue-helabeda.vercel.app' target="_blank" rel="noreferrer" >
+                  <span className='text-white'>Moozak Restaurant</span><br/>
+                  <a href='https://moozak.vercel.app' target="_blank" rel="noreferrer" >
                     <span className='text-white  hover:text-Teal hover:font-bold'>Live Demo</span></a>
                 </div>
                 {/*title*/}

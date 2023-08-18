@@ -21,8 +21,13 @@ import mongodb from "./assets/mongodb.png"
 import git from "./assets/git.png"
 import canva from "./assets/canva.png"
 import figma from "./assets/figma.png"
+import angular from "./assets/angular.png"
+import astro from "./assets/astro.png"
+import strapi from "./assets/strapi.png"
+import magento from "./assets/Magento.png"
+
 import { FcMultipleDevices, FcCommandLine, FcGallery} from "react-icons/fc";
-import fr_cv from "./assets/FullStackJs_HelaAbeda.pdf"
+import fr_cv from "./assets/CV_Hela_Abeda.pdf"
 import en_cv from "./assets/FullStackJS_developer_Hela_Abeda.pdf"
 
 export const navLinks = [
@@ -72,66 +77,82 @@ export const logos = [
 export const skills = [
   {
     id:1,
-    icon:html,
-  },
-  {
-    id:2,
-    icon:css,
-  },
-  {
-    id:3,
     icon:sass,
   },
   {
-    id:4,
+    id:2,
     icon:tailwind,
   },
   {
-    id:5,
+    id:3,
     icon:material,
   },
   {
-    id:6,
+    id:4,
     icon:bootstrap,
   },
   {
-    id:7,
+    id:5,
     icon:js,
   },
   {
-    id:8,
+    id:6,
     icon:react,
   },
   {
+    id:7,
+    icon:astro,
+  },
+  {
+    id:8,
+    icon:strapi,
+  },
+  {
     id:9,
-    icon:redux,
+    icon:angular,
   },
   {
     id:10,
-    icon:node,
+    icon:redux,
   },
   {
     id:11,
-    icon:express,
+    icon:magento,
   },
   {
     id:12,
-    icon:mongodb,
+    icon:node,
   },
   {
     id:13,
-    icon:git,
+    icon:express,
   },
   {
     id:14,
-    icon:canva,
+    icon:mongodb,
   },
   {
     id:15,
+    icon:git,
+  },
+  {
+    id:16,
+    icon:canva,
+  },
+  {
+    id:17,
     icon:figma,
   },
+  
 ];
 export const workExp = [
+  { 
+    place: "Satoripop",
+    tenure: "Apr 2023 - Sep 2023",
+    role: "Front-End Developer",
+    detail:
+      "I contributed to the development of notable programming projects, including the Carrefour.tn website and the Veamly website, leveraging my skills and expertise in software development.",
+  },
   { 
     place: "Self-Employed",
     tenure: "Nov 2021 - Feb 2023",
@@ -225,11 +246,11 @@ export const comments = [
   },
 ];
 export const Resume = [
-  {
-    name : "EN Resume",
-    href: en_cv,
-    download: "Hela Abeda EN_Resume.pdf"
-  },
+  // {
+  //   name : "EN Resume",
+  //   href: en_cv,
+  //   download: "Hela Abeda EN_Resume.pdf"
+  // },
   {
     name : "FR Resume",
     href: fr_cv,

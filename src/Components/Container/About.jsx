@@ -22,13 +22,15 @@ const About = () => {
             <span className='text-sm text-slate-400'> Get To Know </span>
           </div>
           <p className='text-sm text-gray leading-7 mb-4'>
-          As a MERN stack developer with experience in Full Stack JS development, 
-          I bring a deep understanding of web development principles and the ability to create responsive, 
-          user-friendly interfaces. I am versatile, autonomous, and value teamwork. 
-          In my previous roles, I have developed a wide range of websites and applications.
-          I am passionate about staying up to date 
-          with the latest trends and best practices 
-          in web development and am constantly seeking new challenges to push my skills to the next level.
+          As an adept MERN stack developer with a deep understanding of Full Stack JS development, 
+          I excel in crafting responsive, user-centric interfaces. My adaptable nature and self-reliance complement my strong commitment
+          to collaborative teamwork. 
+          I have a proven track record of delivering diverse websites and applications in previous roles.
+          <br/>
+          My expertise extends to Agile methodologies, 
+          which I utilize to streamline development processes and elevate project outcomes. 
+          <br/>
+          I am enthusiastic about embracing new challenges and dedicated to continually advancing and refining my skill set.
           </p>
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
             <div>
