@@ -99,7 +99,7 @@ const Portfolio = () => {
                 <div className='absolute -bottom-full left-12 group-hover:bottom-24
                   transition-all duration-500 z-50'>
                   <span className='text-white'>Moozak Restaurant</span><br/>
-                  <a href='http://www.moozak.co.uk/' target="_blank" rel="noreferrer" >
+                  <a href='https://www.moozak.co.uk' target="_blank" rel="noreferrer" >
                     <span className='text-white  hover:text-Teal hover:font-bold'>Live Demo</span></a>
                 </div>
                 {/*title*/}
