@@ -6,8 +6,7 @@ import img3 from "./assets/3.png"
 import img4 from "./assets/4.png"
 import img5 from "./assets/5.png"
 import img6 from "./assets/6.png"
-import html from "./assets/html5.png"
-import css from "./assets/css3.png"
+import java from "./assets/Java.png"
 import sass from "./assets/sass.png"                          
 import tailwind from "./assets/tailwindcss.png"
 import material from "./assets/material-ui.png"
@@ -125,22 +124,26 @@ export const skills = [
   },
   {
     id:13,
-    icon:express,
+    icon:java,
   },
   {
     id:14,
-    icon:mongodb,
+    icon:express,
   },
   {
     id:15,
-    icon:git,
+    icon:mongodb,
   },
   {
     id:16,
-    icon:canva,
+    icon:git,
   },
   {
     id:17,
+    icon:canva,
+  },
+  {
+    id:18,
     icon:figma,
   },
   
