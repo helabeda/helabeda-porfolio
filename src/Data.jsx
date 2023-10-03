@@ -26,8 +26,8 @@ import strapi from "./assets/strapi.png"
 import magento from "./assets/Magento.png"
 
 import { FcMultipleDevices, FcCommandLine, FcGallery} from "react-icons/fc";
-import fr_cv from "./assets/CV_Hela_Abeda.pdf"
-import en_cv from "./assets/FullStackJS_developer_Hela_Abeda.pdf"
+import fr_cv from "./assets/CV_FR_Hela_Abeda.pdf"
+import en_cv from "./assets/CV_EN_Hela_Abeda.pdf"
 
 export const navLinks = [
   {
@@ -249,11 +249,11 @@ export const comments = [
   },
 ];
 export const Resume = [
-  // {
-  //   name : "EN Resume",
-  //   href: en_cv,
-  //   download: "Hela Abeda EN_Resume.pdf"
-  // },
+  {
+    name : "EN Resume",
+    href: en_cv,
+    download: "Hela Abeda EN_Resume.pdf"
+  },
   {
     name : "FR Resume",
     href: fr_cv,
