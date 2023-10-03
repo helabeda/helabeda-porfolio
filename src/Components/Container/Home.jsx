@@ -3,7 +3,7 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import hela from "../../assets/Hela_abeda.png"
 import { logos } from '../../Data'
 import { motion } from "framer-motion";
-import CV from '../../assets/FullStackJs_HelaAbeda.pdf'
+
 import Dropdown from './Dropdown';
 
 
